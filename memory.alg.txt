@@ -1,0 +1,46 @@
+X X
+X X
+
+2x2 = 4 / 2 = 2
+1 1 2 2
+for (card = 1 to 2)
+ for (pair = 1 to 2)
+  {
+    // generate random location untill you reached an empty spot
+    do
+    {  
+        // card 2
+       // pair 1
+       random_row = 2 (max) -- between 1 to 2
+       random_col =  2 (max) -- between 1 to 2
+  
+    } while [ random_row , random_col  ] != 0
+    matrix [ random_row , random_col  ] = card
+  }
+
+1 1
+2 2 
+for (zug_number = 1 to 8)
+ for (pair = 1 to 2)
+  {
+    // generate random location untill you reached an empty spot
+    do
+    {  
+        // card 1
+       // pair 1
+       random_row = 4 (max) -- between 1 to 4
+       random_col =  4 (max) -- between 1 to 4
+    
+    } while [ random_row , random_col  ] != 0
+    matrix [ random_row , random_col  ] = card
+  }
+
+4x4 = 16 / 2 = 8
+1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 
+
+x x x x
+x x x x
+x x x x
+x x x x
+
+
